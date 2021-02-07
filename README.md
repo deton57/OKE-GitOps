@@ -57,13 +57,21 @@ you can enjoy a $500 promotion and no credit card required**
 ## Workshop Agenda: ## 
 
 Part 1 – Provisioning OKE Cluster
+
 Part 2 - Provision Flux
+
 Part 3 – Provision hello-kubernetes Application from GitHub
+
 Part 4 – Release Upgrade with New Values
+
 Part 5 – Pause/Resume Features
+
 Part 6 – ConfigMap Approach 
+
 Part 7 - Provision OKE-Day2 Components
+
 Part 8 - Breaking the Helm Release
+
 Part 9 - Sealed Secrets
 
 Cleaning All Resources 

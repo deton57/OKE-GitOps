@@ -1,3 +1,5 @@
+
+
 ## Welcome to OKE - GitOps Workshop ##
 
 You are welcome to a live workshop hosted by Oracle in collaboration with OQVA, that will shade light on how to use Oracle managed Kubernetes with the cutting edge GitOps approach.

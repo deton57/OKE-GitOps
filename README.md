@@ -1,4 +1,10 @@
-# OKE-GitOps
+## Welcome to OKE - GitOps Workshop ##
+
+You are welcome to a live workshop hosted by Oracle in collaboration with OQVA, that will shade light on how to use Oracle managed Kubernetes with the cutting edge GitOps approach.
+
+GitOps is a new paradigm of implementing CD (continuous delivery) for cloud-native applications. This approach focuses on operating cloud infrastructure using tools that developers are already familiar with.
+
+
 
 ## Before you begin, here are some prerequisite: ##
 

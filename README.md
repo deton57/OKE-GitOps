@@ -37,3 +37,5 @@ you can enjoy a $500 promotion and no credit card required**
 ```diff
 - Please update them before we begin the lab.
 ```
+
+## Workshop Agenda: ## 

@@ -1,10 +1,11 @@
 
 
 ## Welcome to OKE - GitOps Workshop ##
-<a target="_blank" href="http://oqva.io">
+
+<a target="_blank" href="http://cloud.oracle.com">
 <img src="https://github.com/deton57/OKE-GitOps/blob/main/pics/oracle-oke.PNG" width="256"/>
 </a>
-<a target="_blank" href="http://cloud.oracle.com">
+<a target="_blank" href="http://oqva.io">
 <img src="https://github.com/deton57/OKE-GitOps/blob/main/pics/OQVA-Logo-new.png"width="256"/> 
 </a>
 

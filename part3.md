@@ -6,9 +6,9 @@ you will create a fork of the main project into your repository and you will dep
 1.	If you have a GitHub account, please go to https://github.com/ and login. 
 If you don't have a GitHub account, you can simply create it here: https://github.com/join
 
-2.	After you have logged in Fork				   https://github.com/oqva-io/oracle-gitops-workshop to your GitHub account
+2.	After you have logged in Fork  https://github.com/oqva-io/oracle-gitops-workshop to your GitHub account
 
-<picture>
+![image](pics/github-fork.PNG)
 
 After clicking on fork - choose your repository, after the fork action – you should see the workshop files under your repository. 
 
@@ -124,20 +124,20 @@ default-hello-kubernetes-7b458f8c7b-j6cnh   1/1     Running   0          4m20s
 
 11.	After we have checked that everything is up and running, it's to check our deployed application. For this step, you will need the cloud console. You can use the same or window in your browser, now go to the hamburger menu on the left, click on 'Compute' > 'Instances' 
 
-<picture> 
+![image](pics/compute-instances.PNG)
 
 12.	You can copy any public IP Address of one of the Kubernetes worker nodes: 
 
-<picture>
+![image](pics/instance-public-ip-step-3.PNG)
 
  
 13.	Paste it in the web browser with the following port 30002 
 http://workerIP:30002
 
-<picture> 
+![image](pics/app-example-end-of-step-3.PNG)
 
 
-Good job, your app is up and running! 
+Good job, your app is live and running! 
 
 
 [Continue to Part 4 Release Upgrade with New Values](part4.md) 

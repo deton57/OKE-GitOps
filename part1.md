@@ -98,5 +98,6 @@ kube-system       Active   11h
 
 Continue to [part 2 Provisioning Flux](part2.md) 
 
-If you want to return to the workshop homepage, 
-[click here: Back to the general workshop section](README.md)
+If you want to return to the workshop homepage
+
+[Back to the general workshop section](README.md)

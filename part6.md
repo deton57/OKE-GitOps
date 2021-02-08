@@ -90,7 +90,7 @@ spec:
 
 After you commit the file, you can go back to your CloudShell to watch the changes. 
 
-### The number of pods should be different ### 
+#### The number of pods should be different #### 
 
 After you pass this from the ConfigMap. 
 

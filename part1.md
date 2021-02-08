@@ -132,6 +132,7 @@ kube-public       Active   11h
 kube-system       Active   11h
 
 ```
+Good job! Now you have a Kubernetes cluster up and running. 
 
 [Continue to Part 2 Provisioning Flux](part2.md) 
 

@@ -100,11 +100,12 @@ Scroll down to 'Developer Services', it will open a sub menu, click on 'Kubernet
 
 ![image](pics/access-cluster.PNG)
 
-3.	On the top menu click on the Cloud Shell icon, wait a few moments while it opens. meanwhile at the same time, click on the "Access Cluster" button.
-<picture-create*> 
+
+
 The OCI Cloud Shell is a great tool, it gives you a cloud terminal window, where it has all the tool set you need to manage and deploy on your cloud.
 The tools we need now is OCI CLI, git, helm and Kubectl commands, in order to create the kubeconfig file and access it.
-When the Cloud Shell comes up, copy and paste the command:
+
+3.  Click on 'Launch Cloud Shell', after it comes up about 10~20 seconds, click on the copy button below to copy the command and paste it inside the Cloud Shell. 
 
 ![image](pics/access-cluster2.PNG)
        

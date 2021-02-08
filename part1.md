@@ -96,7 +96,7 @@ kube-system       Active   11h
 
 
 
-Continue to [Part 2 Provisioning Flux](part2.md) 
+[Continue to Part 2 Provisioning Flux](part2.md) 
 
 If you want to return to the workshop homepage:
 

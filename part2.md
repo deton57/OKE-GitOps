@@ -57,5 +57,9 @@ providers.notification.toolkit.fluxcd.io     2021-02-02T09:15:38Z
 receivers.notification.toolkit.fluxcd.io     2021-02-02T09:15:38Z
 
 Well done, Flux is provisioned.
-Continue to [part 3 GitHub Setup](part3.md) If you want to return to the workshop homepage, 
-[Click here - back to the general workshop section](readme.md)
+
+[Continue to Part 3 Github Setup](part3.md) 
+
+If you want to return to the workshop homepage:
+
+[Back to the general workshop section](README.md)

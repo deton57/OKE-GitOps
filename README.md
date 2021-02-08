@@ -56,7 +56,7 @@ you can enjoy a $500 promotion and no credit card required**
 
 ## Workshop Agenda: ## 
 
-Part 1 – Provisioning OKE Cluster
+[Part 1 – Provisioning OKE Cluster](part1.md)
 
 Part 2 - Provision Flux
 

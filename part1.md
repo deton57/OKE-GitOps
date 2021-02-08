@@ -1,4 +1,4 @@
-## Part 1 – Provisioning OKE Cluster: ## 
+# Part 1 – Provisioning OKE Cluster: # 
 
 In order to begin the first part, you need to login to your cloud tenant: 
 
@@ -55,7 +55,7 @@ Now click on 'Next'.
 This process will take a few minutes, sit back relax. 
 Your Kubernetes cluster will be created. 
 
-## Setting public IP and access to Kubernetes Nodes ## 
+## Setting public IP and access to Kubernetes Nodes: ## 
 
 Now we are going to set a secured public access to nodes as well as opening the ports we will need for this workshop. 
 
@@ -90,7 +90,7 @@ after you checked the rule, click on the edit button.
 
 Finally, you have secured public access from your PC. 
 
-### Access to your Kubernetes cluster ###
+### Access to your Kubernetes cluster: ###
 
 1.	Open the menu on the left side, by clicking on the Hamburger menu.
 Scroll down to 'Developer Services', it will open a sub menu, click on 'Kubernetes Clusters'.

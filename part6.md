@@ -89,7 +89,10 @@ spec:
 •	Note you can just copy & paste this into the editor. 
 
 After you commit the file, you can go back to your CloudShell to watch the changes. 
-Now the number of pods should be different, after you pass this from the ConfigMap. 
+
+### The number of pods should be different ### 
+
+After you pass this from the ConfigMap. 
 
 Nice! You just added changes through the ConfigMap. 
 

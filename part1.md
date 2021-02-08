@@ -1,4 +1,4 @@
-## Part 1 – Provisioning OKE Cluster ## 
+## Part 1 – Provisioning OKE Cluster: ## 
 
 In order to begin the first part, you need to login to your cloud tenant: 
 
@@ -17,7 +17,7 @@ After you have logged in to your Oracle cloud account, you will see the followin
 <picture> 
 
 Now we can begin the workshop. 
-## Provisioning the Cluster: ## 
+## Creating the Cluster: ## 
 
 In this step, we are going to create our OKE managed Kubernetes, as well as a few network settings, we will need for our workshop. After we will finish this step, we will validate that we can access the cluster. 
 

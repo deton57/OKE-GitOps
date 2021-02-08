@@ -1,4 +1,4 @@
-## Part 6 – Pause/Resume Features ## 
+## Part 5 – Pause/Resume Features ## 
 
 When you are doing git maintenance, 
 like merging restructuring and etc.. 

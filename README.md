@@ -6,7 +6,7 @@
 <img src="pics/oracle-oke.PNG" width="256"/>
 </a>
 <a target="_blank" href="http://oqva.io">
-<img src="https://github.com/deton57/OKE-GitOps/blob/main/pics/OQVA-Logo-new.png"width="256"/> 
+<img src="pics/OQVA-Logo-new.png"width="256"/> 
 </a>
 
 

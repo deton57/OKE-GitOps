@@ -58,20 +58,20 @@ you can enjoy a $500 promotion and no credit card required**
 
 [Part 1 – Provisioning OKE Cluster](part1.md)
 
-Part 2 - Provision Flux
+[Part 2 - Provision Flux](part2.md)
 
-Part 3 – Provision hello-kubernetes Application from GitHub
+[Part 3 – Provision hello-kubernetes Application from GitHub](part3.md)
 
-Part 4 – Release Upgrade with New Values
+[Part 4 – Release Upgrade with New Values](part4.md)
 
-Part 5 – Pause/Resume Features
+[Part 5 – Pause/Resume Features](part5.md)
 
-Part 6 – ConfigMap Approach 
+[Part 6 – ConfigMap Approach](part6.md)
 
-Part 7 - Provision OKE-Day2 Components
+[Part 7 - Provision OKE-Day2 Components](part7.md)
 
-Part 8 - Breaking the Helm Release
+[Part 8 - Breaking the Helm Release](part8.md)
 
-Part 9 - Sealed Secrets
+[Part 9 - Sealed Secrets](part9.md)
 
-Cleaning All Resources 
+[Cleaning All Resources](clean.md) 

@@ -49,6 +49,7 @@ spec:
 
 •	Note if you are not sure and you are new to YAML and GitHub you can just copy the whole section from above and replace it with your file. 
 
+
  After you finished editing, it's time to commit the changes.
  In the bottom you will have a green button that says 'Commit Changes'
 
@@ -56,6 +57,7 @@ Once you committed, go back to the watch screen in the Cloud Shell, and watch th
 
 
 Let's check what exactly happened. 
+
 
 3.	Stop the watch command by holding CTRL + C in the CloudShell.
 Enter the following command, to get the reconciled git repository with latest commit:

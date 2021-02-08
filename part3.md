@@ -22,7 +22,7 @@ export GITHUB_REPO=https://github.com/{username}/oracle-gitops-workshop
 ```
 *don't forget to replace the username
  
-4.	Now run the following command to create a source repo in Flux:
+4.	Run the following command to create a source repo in Flux:
 ```
 ./flux create source git oracle-gitops-workshop \
 --url=${GITHUB_REPO} \
@@ -43,7 +43,7 @@ output:
 ✔ fetched revision: master/1f6cf257a81a9a5a43a2988a5b81e6ab9851adcd
 ```
 
-5.	Now we are going to see the custom resource we added to Flux. We will see the oracle-gitops-meetup as flux git source, by running the following command: 
+5.	We are going to see the custom resource we added to Flux. We will see the oracle-gitops-meetup as flux git source, by running the following command: 
 ```
 kubectl get gitrepositories.source.toolkit.fluxcd.io -A
 ```
@@ -98,7 +98,7 @@ NAMESPACE     NAME                           CHART                       VERSION
 flux-system   flux-system-hello-kubernetes   ./charts/hello-kubernetes   *         GitRepository   oracle-gitops-workshop   True    Fetched and packaged revision: 0.1.2   2m21s
 ```
 
-9.	Now let's review the installed Helm Charts 
+9.	Let's review the installed Helm Charts 
 ```
 kubectl get helmreleases.helm.toolkit.fluxcd.io -A
 ```
@@ -109,7 +109,7 @@ NAMESPACE     NAME               READY   STATUS                             AGE
 flux-system   hello-kubernetes   True    Release reconciliation succeeded   3m32s
 ```
 
-10.	Now let's verify that all resource is in running state:
+10.	Verify that all resource is in running state:
 ```
 kubectl get pod
 ```

@@ -59,6 +59,7 @@ Let's check what exactly happened.
 
 3.	Stop the watch command by holding CTRL + C in the CloudShell.
 Enter the following command, to get the reconciled git repository with latest commit:
+
 ```
 kubectl get gitrepositories.source.toolkit.fluxcd.io -A
 ```
@@ -69,7 +70,8 @@ NAMESPACE     NAME                     URL                                      
 flux-system   oracle-gitops-workshop   https://github.com/deton57/oracle-gitops-workshop   True    Fetched revision: master/72477914c0eb179327a9c410b1917447f0b13705   126 
 ```
 
-4.	Observe kustomize updated to the latest git commit 
+4.	Observe kustomize updated to the latest git commit:
+
 ```
 kubectl get kustomizations.kustomize.toolkit.fluxcd.io -A
 ```
@@ -81,7 +83,8 @@ flux-system   oracle-gitops-workshop   True    Applied revision: master/72477914
 ```
 
 
-5.	Observe helm release status
+5.	Observe helm release status:
+
 ```
 kubectl describe helmreleases.helm.toolkit.fluxcd.io hello-kubernetes -n flux-system
 ```
@@ -95,6 +98,7 @@ Events:
 ```
 
 6.	You can also view the application from the web browser:
+
 http://workerIP:30002
 
 Excellent, you perfomed a release upgrade!

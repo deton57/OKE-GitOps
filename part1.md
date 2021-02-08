@@ -23,17 +23,18 @@ Creating the Kubernetes cluster:
 1.	Open the menu on the left side, by clicking on the Hamburger menu.
 Scroll down to 'Developer Services', it will open a sub menu, click on 'Kubernetes Clusters'.
 
-<picture> 
+![image](pics/kube-cluster-1.PNG)
        
 2.	In the next screen click on the 'Create Cluster'. 
 
-<picture> 
+![image](pics/create-cluster-screen-1.PNG)
        
 3.	In the next screen the default choice is 'Quick Create', for our workshop it is fine, but if you want to customize your networks and cloud resources for your Kubernetes cluster, I suggest doing custom create. 
 Quick create, creates all the cloud resources for you. 
 Click on 'Launch Workflow' 
 
-       <picture> 
+![image](pics/create-cluster-screen-2.PNG)
+
        
 4.	In the following menu, you will have some parameters you will need to change for our workshop. 
 Name: "Give your cluster a name, you can use 'my-kube-cluster' or something else"
@@ -46,7 +47,7 @@ Number of Nodes:  '3' (Leave it with 3 worker nodes)
 
 Now click on 'Next'.
 
-<Picture> 
+![image](pics/kube-cluster-3.PNG)
 
 5.	Review and click on 'Create Cluster'
 

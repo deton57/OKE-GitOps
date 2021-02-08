@@ -60,32 +60,32 @@ Now we are going to set a secured public access to nodes as well as opening the 
 
 1.	Open google.com in your browser and search for: 'show my ip' , copy the IP Address.
 
-<picture> 
+![image](pics/show-my-ip.PNG)
        
 2.	Go back to Oracle Cloud, open the Hamburger menu and select 'Networking' > 'Virtual Cloud Networks'
 
-<picture> 
+![image](pics/network-virtual-cloud-networks.PNG)
        
 3.	Choose your OKE VCN – the Virtual Cloud Network was created as part of the quick create action by Kubernetes. 
 
-<picture>  
+![image](pics/choose-vcn.PNG)
        
 4.	On the bottom left menu click on 'Security Lists' 
 
-<picture> 
+![image](pics/security-lists.PNG)
        
 5.	Click on the 'oke-seclist-quick-**'
 
-<picture> 
+![image](pics/choose-seclist.PNG)
        
 6.	Now the security list for the node network will open, you will want to update the 0.0.0.0/0 to your IP address, because you don't want it to be open for the whole internet. Go to the bottom of the security list and check the rule with the following destination port range: 30000-32767 (These are the Nodeports Kubernetes uses to expose service through worker node access) 
 after you checked the rule, click on the edit button.
 
-<picture> 
+![image](pics/edit-rule.PNG)
 
 7.	Now edit the place where it has SOURCE CIDR to your IP address you copied from google and put the following prefix /32. It should look like this example:
 
-<picture> 
+![image](pics/ip-change.PNG)
 
 Finally, you have secured public access from your PC. 
 
@@ -94,11 +94,11 @@ Finally, you have secured public access from your PC.
 1.	Open the menu on the left side, by clicking on the Hamburger menu.
 Scroll down to 'Developer Services', it will open a sub menu, click on 'Kubernetes Clusters'.
 
-<picture> 
+![image](pics/kube-cluster-1.PNG)
        
 2.	Click on your OKE cluster 
 
-<picture-create*> 
+![image](pics/access-cluster.PNG)
 
 3.	On the top menu click on the Cloud Shell icon, wait a few moments while it opens. meanwhile at the same time, click on the "Access Cluster" button.
 <picture-create*> 
@@ -106,7 +106,7 @@ The OCI Cloud Shell is a great tool, it gives you a cloud terminal window, where
 The tools we need now is OCI CLI, git, helm and Kubectl commands, in order to create the kubeconfig file and access it.
 When the Cloud Shell comes up, copy and paste the command:
 
-<picture> 
+![image](pics/access-cluster2.PNG)
        
 If you did it correctly, you should get the following response:
 ```

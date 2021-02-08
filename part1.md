@@ -110,14 +110,20 @@ When the Cloud Shell comes up, copy and paste the command:
 <picture> 
        
 If you did it correctly, you should get the following response:
+```
 New config written to the Kubeconfig file /home/account/.kube/config
+```
 Or, if you have an existing cluster:
+```
 Existing Kubeconfig file found at /home/account/.kube/config and new config merged into it
-
+```
 Now, from your Cloud Shell, run the following command:
+```
 kubectl get ns
+```
 This will retrieve a list of all the created namespaces on your OKE cluster:
 
+```
 NAME              STATUS   AGE
 cattle-system     Active   11h
 default           Active   11h
@@ -125,7 +131,7 @@ kube-node-lease   Active   11h
 kube-public       Active   11h
 kube-system       Active   11h
 
-
+```
 
 [Continue to Part 2 Provisioning Flux](part2.md) 
 

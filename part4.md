@@ -8,9 +8,9 @@ Let's start watching the pods, while we will perform operations in our Git repos
 ```
 watch kubectl get pod
 ```
-       
-       In the output you should see an updating view of: 
-```	 
+In the output you should see an updating view of: 
+
+```
        Every 2.0s: kubectl get pod                                                                                                    Tue Feb  2 15:30:04 2021
 
 NAME                                        READY   STATUS    RESTARTS   AGE

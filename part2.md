@@ -1,6 +1,12 @@
 ## Part 2 - Provision Flux ## 
 
-In this part we are going to install and provision Flux. We are going to implement this operation using CloudShell in the cloud console, but alternatively if you have a developer machine that has access to OCI, you can do it from there. 
+In this part we are going to install and provision Flux. 
+
+Flux is a tool that automatically ensures that the state of a cluster matches the config in git. It uses an operator in the cluster to trigger deployments inside Kubernetes, which means you don't need a separate CD tool. It monitors all relevant image repositories, detects new images, triggers deployments and updates the desired running configuration based on that (and a configurable policy).
+Source: https://github.com/fluxcd/flux
+
+We are going to implement this operation using CloudShell in the cloud console, 
+but alternatively if you have a developer machine that has access to OCI, you can do it from there. 
 
 1.	Install Flux cli run the following command: 
 ```

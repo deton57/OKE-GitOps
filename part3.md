@@ -7,7 +7,7 @@ you will create a fork of the main project into your repository and you will dep
 If you don't have a GitHub account, you can simply create it here: https://github.com/join
 
 2.	After you have logged in,
-click on fork  https://github.com/oqva-io/oracle-gitops-workshop to your GitHub account
+create a fork  https://github.com/oqva-io/oracle-gitops-workshop to your GitHub account
 
 ![image](pics/github-fork.PNG)
 

@@ -5,7 +5,7 @@ In order to begin the first part, you need to login to your cloud tenant:
 1.	Enter the following link: http://cloud.oracle.com/
 2.	Input your tenant name, and click next: 
 
-![image](pics/Cloud Login - 1.PNG)
+![image](../pics/Cloud Login - 1.PNG)
        
 3.	In the next screen, click on continue using your SSO: 
 

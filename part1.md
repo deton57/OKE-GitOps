@@ -90,7 +90,7 @@ after you checked the rule, click on the edit button.
 
 Finally, you have secured public access from your PC. 
 
-Access to your Kubernetes cluster
+# Access to your Kubernetes cluster #
 
 1.	Open the menu on the left side, by clicking on the Hamburger menu.
 Scroll down to 'Developer Services', it will open a sub menu, click on 'Kubernetes Clusters'.

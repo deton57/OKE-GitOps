@@ -17,19 +17,26 @@ After you have logged in to your Oracle cloud account, you will see the followin
 <picture> 
 
 Now we can begin the workshop. 
-Provisioning the Cluster:
+## Provisioning the Cluster: ## 
+
 In this step, we are going to create our OKE managed Kubernetes, as well as a few network settings, we will need for our workshop. After we will finish this step, we will validate that we can access the cluster. 
+
 Creating the Kubernetes cluster: 
 1.	Open the menu on the left side, by clicking on the Hamburger menu.
 Scroll down to 'Developer Services', it will open a sub menu, click on 'Kubernetes Clusters'.
+
 <picture> 
+       
 2.	In the next screen click on the 'Create Cluster'. 
+
 <picture> 
+       
 3.	In the next screen the default choice is 'Quick Create', for our workshop it is fine, but if you want to customize your networks and cloud resources for your Kubernetes cluster, I suggest doing custom create. 
 Quick create, creates all the cloud resources for you. 
 Click on 'Launch Workflow' 
 
        <picture> 
+       
 4.	In the following menu, you will have some parameters you will need to change for our workshop. 
 Name: "Give your cluster a name, you can use 'my-kube-cluster' or something else"
 Compartment: "This is the compartment you want to create the cluster in" 

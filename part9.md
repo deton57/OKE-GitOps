@@ -124,11 +124,11 @@ spec:
 
 i.	Open oracle-gitops-workshop repository in your GitHub webpage
 
-ii.	Go to clusters/default/flux-system/ directory
+ii.	Go to **clusters/default/flux-system/** directory
 
-iii.	Сlick on Add file -> Create new file
+iii.	Сlick on **Add file** -> **Create new file**
 
-iv.	Fill filename basic-auth-sealed.yaml to Name your file... field
+iv.	Fill filename **basic-auth-sealed.yaml** to Name your file... field
 
 v.	Copy & Paste basic-auth-sealed.yaml content to text area and click on Commit changes
 
@@ -144,7 +144,8 @@ iii.	Click on basic-auth
 
 iv.	Click password and user eye to see real values
 
-<Picture>
+![image](pics/dashboard-secrets.PNG)
+
 
 
 Well done! You finished the last part of this workshop, you learned about GitOps on OKE, about how the process works, 

@@ -90,25 +90,27 @@ Now that the tools are installed let's review them (Don't close the tabs you wil
 1.	Open a browser window and enter to the installed Kubernetes Dashboard
 Enter the following URL http://workerIp:30000
 
-![image](pics/dashboard-1.PNG)
 
 2.	Click on Custom Resource Definitions 
 
-![image](pics/dashboard-2.PNG)
+![image](pics/dashboard-1.PNG)
+
 
 3.	Click on Helm Release 
 
-![image](pics/dashboard-3.PNG)
+![image](pics/dashboard-2.PNG)
 
 4.	Choose the flux-system namespace from the top menu
 
-![image](pics/dashboard-7.PNG)
+![image](pics/dashboard-3.PNG)
 
 5.	Click on the hello-kubernetes object
 
-![image](pics/dashboard-8.PNG)
+![image](pics/dashboard-7.PNG)
 
-We need these tools for the next step, because in this step we are going to capture different events. 
+We need these tools for the next step, because in this step we are going to capture different events.
+
+![image](pics/dashboard-8.PNG)
 
 
 6.	Let's open flux dashboard in Grafana

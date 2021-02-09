@@ -19,7 +19,7 @@ ii.	Go to **clusters/default/flux-system/hello-kubernetes.yaml** file
 
 iii.	Сlick on the pencil to edit the file
 
-iv.	Under the values section and broken image repository and click on Commit changes
+iv.	Under the values section and broken image repository and click on **Commit changes**
 
 ```
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
@@ -80,7 +80,7 @@ ii.	Go to **clusters/default/flux-system/hello-kubernetes.yaml** file
 
 iii.	Сlick on the pencil to edit the file
 
-iv.	Under the values remove image section and click on Commit changes
+iv.	Under the values remove image section and click on **Commit changes**
 
 
 
@@ -143,7 +143,7 @@ ii.	Go to **clusters/default/flux-system/hello-kubernetes.yaml** file
 
 iii.	Сlick on the pencil to edit the file
 
-iv.	Under the values section and broken image repository and click on Commit changes
+iv.	Under the values section and broken image repository and click on **Commit changes**
 
 ```
 apiVersion: helm.toolkit.fluxcd.io/v2beta1

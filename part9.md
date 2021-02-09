@@ -130,7 +130,7 @@ iii.	Сlick on **Add file** -> **Create new file**
 
 iv.	Fill filename **basic-auth-sealed.yaml** to Name your file... field
 
-v.	Copy & Paste basic-auth-sealed.yaml content to text area and click on Commit changes
+v.	Copy & Paste basic-auth-sealed.yaml content to text area and click on **Commit changes**
 
 
 

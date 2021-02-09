@@ -1,4 +1,4 @@
-## Part 6 – ConfigMap Approach ## 
+# Part 6 – ConfigMap Approach #
 
 
 It is possible to define a list of ConfigMap and Secret resources from which to take values. 
@@ -43,20 +43,20 @@ metadata:
 
 i.	Go to your GitHub account in the browser, open oracle-gitops-workshop repository in your GitHub webpage
 
-ii.	Go to clusters/default/flux-system/ directory
+ii.	Go to **clusters/default/flux-system/** directory
 
-iii.	Сlick on 'Add file' -> 'Create new file'
+iii.	Сlick on **Add file** -> **Create new file**
 
-iv.	Fill filename myconfig.yaml to Name your file... field
+iv.	Fill filename **myconfig.yaml** to Name your file... field
 
 v.	Copy & Paste myconfig.yaml content to text area and click on Commit change on the bottom of the page.
 
 
 3.	Define a ConfigMap resource from which to take the values
 
-i.	Open oracle-gitops-workshop repository in your GitHub webpage
+i.	Open **oracle-gitops-workshop** repository in your GitHub webpage
 
-ii.	Go to clusters/default/flux-system/hello-kubernetes.yaml file
+ii.	Go to **clusters/default/flux-system/hello-kubernetes.yaml** file
 
 iii.	Сlick on pencil to edit the file
 

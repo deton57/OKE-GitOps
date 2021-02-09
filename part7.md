@@ -87,26 +87,27 @@ flux-system   sealed-secrets         True    Release reconciliation succeeded   
 
 Now that the tools are installed let's review them (Don't close the tabs you will need them for the next section):
 
-1.	Open a browser window and enter to the instaleld Kubernetes Dashboard
+1.	Open a browser window and enter to the installed Kubernetes Dashboard
 Enter the following URL http://workerIp:30000
 
-<picture>
+![image](pics/dashboard-1.PNG)
 
 2.	Click on Custom Resource Definitions 
 
-<picture>
+![image](pics/dashboard-2.PNG)
 
 3.	Click on Helm Release 
 
-<picture> 
+![image](pics/dashboard-3.PNG)
 
 4.	Choose the flux-system namespace from the top menu
 
-<picture> 
+![image](pics/dashboard-4.PNG) ###
 
 5.	Click on the hello-kubernetes object
 
-<picture>
+![image](pics/dashboard-5.PNG) ###
+
 We need these tools for the next step, because in this step we are going to capture different events. 
 
 
@@ -115,12 +116,12 @@ We need these tools for the next step, because in this step we are going to capt
 1.	Open another browser window 
 Enter the following URL http://workerIp:30001
 
-<Picture> 
+![image](pics/grafana-1.PNG)
 
 2.	Click on the 'Home" from the top menu
 3.	Choose Flux Cluster Stats – from the dashboards
 
-<Picture> 
+![image](pics/grafana-2.PNG) 
 
 Here you will see the Flux dashboard with all the operations we are going to perform on the application. 
 

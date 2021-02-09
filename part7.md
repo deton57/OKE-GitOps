@@ -126,4 +126,9 @@ Here you will see the Flux dashboard with all the operations we are going to per
 
 Excellent, now you have provisioned oke-day2 tools, and you have more eyes on your system. 
 
-Continue to part 8 Breaking the helm release If you want to return to the workshop homepage, click here: Back to the general workshop section
+[Continue to Part 8 Breaking the Helm Release](part8.md) 
+
+If you want to return to the workshop homepage:
+
+[Back to the general workshop section](README.md)
+

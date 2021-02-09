@@ -1,4 +1,4 @@
-## Part 4 – Release Upgrade with New Values ## 
+# Part 4 – Release Upgrade with New Values #
 
 In this part we will learn how we are going to override default values, in order to modify our helm application release.
 Let's start watching the pods, while we will perform operations in our Git repository.
@@ -20,8 +20,8 @@ default-hello-kubernetes-7b458f8c7b-j6cnh   1/1     Running   0          112m
 ```
 
 2.	Go to your GitHub account and enter the new forked project.
-Open oracle-gitops-workshop, then go to clusters/default/flux-system
-Click on the following file: hello-kubernetes.yaml
+Open oracle-gitops-workshop, then go to **clusters/default/flux-system**
+Click on the following file: **hello-kubernetes.yaml**
 Next click on the pencil and it will open the GitHub editor. 
  
 Under the values section add new message, your result file should look like this:
@@ -51,7 +51,7 @@ spec:
 
 
  After you finished editing, it's time to commit the changes.
- In the bottom you will have a green button that says 'Commit Changes'
+ In the bottom you will have a green button that says **Commit Changes**
 
 Once you committed, go back to the watch screen in the Cloud Shell, and watch the magic happen.  
 
@@ -59,7 +59,7 @@ Once you committed, go back to the watch screen in the Cloud Shell, and watch th
 Let's check what exactly happened. 
 
 
-3.	Stop the watch command by holding CTRL + C in the CloudShell.
+3.	Stop the watch command by holding **CTRL + C** in the CloudShell.
 Enter the following command, to get the reconciled git repository with latest commit:
 
 ```

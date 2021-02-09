@@ -1,4 +1,4 @@
-## Part 2 - Provision Flux ## 
+# Part 2 - Provision Flux # 
 
 In this part we are going to install and provision Flux. 
 

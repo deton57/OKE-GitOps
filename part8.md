@@ -191,7 +191,7 @@ Grafana
 	
 Kubernetes Dashboard
 
-![image](pics/DASHBOARD.PNG)
+![image](pics/dashboard-rollback.PNG)
 
 CloudShell
 

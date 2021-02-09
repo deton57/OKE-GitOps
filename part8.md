@@ -8,14 +8,14 @@ In this part we are going to create an error, and we are going to see how we can
 watch kubectl get pod 
 ```
 
-Before starting the commit, make sure Grafana and Kubernetes Dashboard,
+Before starting the commit, make sure **CloudShell**, **Grafana** and **Kubernetes Dashboard**,
 if not go back to step 7 and open them from the last point where we finished the previous part.  
 
 2.	Now it's time to commit the broken image in the repository
 
-i.	Open oracle-gitops-workshop repository in your GitHub webpage
+i.	Open **oracle-gitops-workshop** repository in your GitHub webpage
 
-ii.	Go to clusters/default/flux-system/hello-kubernetes.yaml file
+ii.	Go to **clusters/default/flux-system/hello-kubernetes.yaml** file
 
 iii.	Сlick on the pencil to edit the file
 
@@ -74,9 +74,9 @@ Alternatively, before reverting this change as mentioned in the next step, you c
 
 4.	Revert change of broken image repository
 
-i.	Open oracle-gitops-workshop repository in your GitHub webpage
+i.	Open **oracle-gitops-workshop** repository in your GitHub webpage
 
-ii.	Go to clusters/default/flux-system/hello-kubernetes.yaml file
+ii.	Go to **clusters/default/flux-system/hello-kubernetes.yaml** file
 
 iii.	Сlick on the pencil to edit the file
 
@@ -137,9 +137,9 @@ Verify that you are in watch in the CloudShell:
 
 7.	Commit broken image repository
 
-i.	Open oracle-gitops-workshop repository in your GitHub webpage
+i.	Open **oracle-gitops-workshop** repository in your GitHub webpage
 
-ii.	Go to clusters/default/flux-system/hello-kubernetes.yaml file
+ii.	Go to **clusters/default/flux-system/hello-kubernetes.yaml** file
 
 iii.	Сlick on the pencil to edit the file
 

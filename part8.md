@@ -1,4 +1,4 @@
-# Part 8 - Breaking the helm release #
+# Part 8 - Breaking the Helm Release #
 
 
 In this part we are going to create an error, and we are going to see how we can notice it in our toolset. 

@@ -1,4 +1,4 @@
-## Part 3 – Provision hello-kubernetes Application from GitHub ## 
+# Part 3 – Provision hello-kubernetes Application from GitHub # 
 
 In this part we are going to provision the application, directly from your repository in GitHub, 
 you will create a fork of the main project into your repository and you will deploy the hello-kubernetes application on your Kubernetes Cluster. 
@@ -123,7 +123,7 @@ default-hello-kubernetes-7b458f8c7b-587nl   1/1     Running   0          4m21s
 default-hello-kubernetes-7b458f8c7b-j6cnh   1/1     Running   0          4m20s
 ```
 
-11.	After we have checked that everything is up and running, it's to check our deployed application. For this step, you will need the cloud console. You can use the same or window in your browser, now go to the hamburger menu on the left, click on 'Compute' > 'Instances' 
+11.	After we have checked that everything is up and running, it's to check our deployed application. For this step, you will need the cloud console. You can use the same or window in your browser, now go to the hamburger menu on the left, click on **Compute** > **Instances** 
 
 ![image](pics/compute-instances.PNG)
 

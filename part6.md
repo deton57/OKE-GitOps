@@ -49,7 +49,7 @@ iii.	Сlick on **Add file** -> **Create new file**
 
 iv.	Fill filename **myconfig.yaml** to Name your file... field
 
-v.	Copy & Paste myconfig.yaml content to text area and click on Commit change on the bottom of the page.
+v.	Copy & Paste myconfig.yaml content to text area and click on **Commit change** on the bottom of the page.
 
 
 3.	Define a ConfigMap resource from which to take the values

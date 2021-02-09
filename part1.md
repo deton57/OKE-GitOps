@@ -3,11 +3,11 @@
 In order to begin the first part, you need to login to your cloud tenant: 
 
 1.	Enter the following link: http://cloud.oracle.com/
-2.	Input your tenant name, and click next: 
+2.	Input your tenant name, and click **next**: 
 
 ![image](pics/cloud-login-1.PNG)
        
-3.	In the next screen, click on continue using your SSO: 
+3.	In the next screen, click on **continue** using your SSO: 
        
 4.	Enter your email address and password, and you're in.  
 After you have logged in to your Oracle cloud account, you will see the following dashboard: 

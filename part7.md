@@ -1,4 +1,4 @@
-## Part 7 Provision OKE-Day2 Components ## 
+# Part 7 Provision OKE-Day2 Components #
 
 
 This part will enhance your visibility and observability,
@@ -121,8 +121,8 @@ Enter the following URL http://workerIp:30001
 
 ![image](pics/grafana-1.PNG)
 
-2.	Click on the 'Home" from the top menu
-3.	Choose Flux Cluster Stats – from the dashboards
+2.	Click on the **Home** from the top menu
+3.	Choose **Flux Cluster Stats** – from the dashboards
 
 ![image](pics/grafana-2.PNG) 
 

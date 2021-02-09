@@ -102,11 +102,11 @@ Enter the following URL http://workerIp:30000
 
 4.	Choose the flux-system namespace from the top menu
 
-![image](pics/dashboard-4.PNG) ###
+![image](pics/dashboard-7.PNG)
 
 5.	Click on the hello-kubernetes object
 
-![image](pics/dashboard-5.PNG) ###
+![image](pics/dashboard-8.PNG)
 
 We need these tools for the next step, because in this step we are going to capture different events. 
 

@@ -52,9 +52,13 @@ spec:
 3.	Open the following 3 tabs: 
 
 Grafana
-<picture>
+
+![image](pics/fail-grafana.PNG)
+
 Kubernetes Dashboard
-<picture> 
+
+![image](pics/kubernetes-dashboard-failed.PNG)
+
 Helm upgrade failed: timed out waiting for the condition
 CloudShell
 
@@ -111,21 +115,24 @@ spec:
 •	Note you can copy & paste the values to the GitHub editor
 
 5.	Now it's time to open the 3 tabs to review the change and everything works fine. Open the following 3 tabs: 
+
 Grafana
-<picture>
+
+![image](pics/grafana-2.PNG)
+
 Kubernetes Dashboard
-<picture> 
+
+![image](pics/helm-upgrade-success.PNG)
+
 CloudShell
 
 output:
+
 ```
 NAME                                        READY   STATUS    RESTARTS   AGE
 default-hello-kubernetes-784d569bb5-5nfpk   1/1     Running   0          42m
 default-hello-kubernetes-784d569bb5-5s66w   1/1     Running   0          42m
 ```
-
-Dashboard 3 pictures – don't forget
-
 
 
 6.	Now let's commit an invalid value to break the helm release with remediation
@@ -180,9 +187,11 @@ spec:
 
 
 Grafana
-<picture>
+![image](pics/grafana-fail2.PNG)
+	
 Kubernetes Dashboard
-<picture> 
+
+![image](pics/DASHBOARD.PNG)
 
 CloudShell
 

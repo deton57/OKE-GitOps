@@ -111,8 +111,6 @@ Enter the following URL http://workerIp:30000
 
 We need these tools for the next step, because in this step we are going to capture different events.
 
-![image](pics/dashboard-8.PNG)
-
 
 6.	Let's open flux dashboard in Grafana
 

@@ -35,13 +35,14 @@ output:
 ```
 
 output: 
+```
 ✚ generating Kustomization
 ► applying Kustomization
 ✔ Kustomization created
 ◎ waiting for Kustomization reconciliation
 ✔ Kustomization flux-system is ready
 ✔ applied revision master/c0e55858f151e4dbee64e88c70cdcd40a54f18c2
-
+```
 
 3.	Let's verify that all the pods are in Running state:
 

@@ -103,6 +103,9 @@ Events:
 
 http://workerIP:30002
 
+![image](pics/hello-from-github.PNG)
+
+
 Excellent, you perfomed a release upgrade!
 
 [Continue to Part 5 Pause/Resume Features](part5.md) 

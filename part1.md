@@ -3,11 +3,11 @@
 In order to begin the first part, you need to login to your cloud tenant: 
 
 1.	Enter the following link: http://cloud.oracle.com/
-2.	Input your tenant name, and click **next**: 
+2.	Input your tenant name, and click **Next**: 
 
 ![image](pics/cloud-login-1.PNG)
        
-3.	In the next screen, click on **continue** using your SSO: 
+3.	In the next screen, click on **Continue** using your SSO: 
        
 4.	Enter your email address and password, and you're in.  
 After you have logged in to your Oracle cloud account, you will see the following dashboard: 
@@ -21,35 +21,36 @@ In this step, we are going to create our OKE managed Kubernetes, as well as a fe
 
 Creating the Kubernetes cluster: 
 1.	Open the menu on the left side, by clicking on the Hamburger menu.
-Scroll down to 'Developer Services', it will open a sub menu, click on 'Kubernetes Clusters'.
+Scroll down to **Developer Services**, it will open a sub menu, click on **Kubernetes Clusters**.
 
 ![image](pics/kube-cluster-1.PNG)
        
-2.	In the next screen click on the 'Create Cluster'. 
+2.	In the next screen click on the **Create Cluster**. 
 
 ![image](pics/create-cluster-screen-1.PNG)
        
-3.	In the next screen the default choice is 'Quick Create', for our workshop it is fine, but if you want to customize your networks and cloud resources for your Kubernetes cluster, I suggest doing custom create. 
+3.	In the next screen the default choice is **Quick Create**, for our workshop it is fine, but if you want to customize your networks and cloud resources for your Kubernetes cluster, I suggest doing custom create. 
 Quick create, creates all the cloud resources for you. 
-Click on 'Launch Workflow' 
+Click on **Launch Workflow** 
 
 ![image](pics/create-cluster-screen-2.PNG)
 
        
 4.	In the following menu, you will have some parameters you will need to change for our workshop. 
-Name: "Give your cluster a name, you can use 'my-kube-cluster' or something else"
+Name: "Give your cluster a name, you can use **my-kube-cluster** or something else"
 Compartment: "This is the compartment you want to create the cluster in" 
 Kubernetes Version: "Leave it as the latest version available"
-Choose Visibility Type: 'Public'
+Choose Visibility Type: **Public**
 (Will need the nodes, to have public access, for Grafana and the dashboard – later)
-Shape: for our workshop I suggest choosing a small shape like VM.Standard1.1 or VM.Standard1.2, the shape defines the amount of CPU per each worker node. 
-Number of Nodes:  '3' (Leave it with 3 worker nodes) 
+Shape: for our workshop I suggest choosing a small shape like **VM.Standard1.1** or **VM.Standard1.2**, 
+the shape defines the amount of CPU per each worker node. 
+Number of Nodes:  **3** (Leave it with 3 worker nodes) 
 
-Now click on 'Next'.
+Now click on **Next**.
 
 ![image](pics/kube-cluster-3.PNG)
 
-5.	Review and click on 'Create Cluster'
+5.	Review and click on **Create Cluster**
 
 This process will take a few minutes, sit back relax. 
 Your Kubernetes cluster will be created. 
@@ -58,11 +59,11 @@ Your Kubernetes cluster will be created.
 
 Now we are going to set a secured public access to nodes as well as opening the ports we will need for this workshop. 
 
-1.	Open google.com in your browser and search for: 'show my ip' , copy the IP Address.
+1.	Open google.com in your browser and search for: **show my ip** , copy the IP Address.
 
 ![image](pics/show-my-ip.PNG)
        
-2.	Go back to Oracle Cloud, open the Hamburger menu and select 'Networking' > 'Virtual Cloud Networks'
+2.	Go back to Oracle Cloud, open the Hamburger menu and select **Networking** > **Virtual Cloud Networks**
 
 ![image](pics/network-virtual-cloud-networks.PNG)
        
@@ -70,11 +71,11 @@ Now we are going to set a secured public access to nodes as well as opening the 
 
 ![image](pics/choose-vcn.PNG)
        
-4.	On the bottom left menu click on 'Security Lists' 
+4.	On the bottom left menu click on **Security Lists** 
 
 ![image](pics/security-lists.PNG)
        
-5.	Click on the 'oke-seclist-quick-**'
+5.	Click on the **oke-seclist-quick-{generatedtext}**
 
 ![image](pics/choose-seclist.PNG)
        
@@ -92,7 +93,7 @@ Finally, you have secured public access from your PC.
 ### Access to your Kubernetes cluster: ###
 
 1.	Open the menu on the left side, by clicking on the Hamburger menu.
-Scroll down to 'Developer Services', it will open a sub menu, click on 'Kubernetes Clusters'.
+Scroll down to **Developer Services**, it will open a sub menu, click on **Kubernetes Clusters**.
 
 ![image](pics/kube-cluster-1.PNG)
        

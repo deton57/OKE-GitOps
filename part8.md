@@ -8,7 +8,8 @@ In this part we are going to create an error, and we are going to see how we can
 watch kubectl get pod 
 ```
 
-Before starting the commit, make sure Grafana and Kubernetes Dashboard, if not go back to step 7 and open them from the last point where we finished the previous part.  
+Before starting the commit, make sure Grafana and Kubernetes Dashboard,
+if not go back to step 7 and open them from the last point where we finished the previous part.  
 
 2.	Now it's time to commit the broken image in the repository
 
@@ -49,6 +50,7 @@ spec:
 •	Note you can copy & paste the values to the GitHub editor
 
 3.	Open the following 3 tabs: 
+
 Grafana
 <picture>
 Kubernetes Dashboard
